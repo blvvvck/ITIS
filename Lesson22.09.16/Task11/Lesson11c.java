@@ -1,3 +1,4 @@
+// Determines the difference between Euclid's algorithm and brute force method
 public class Lesson11c{
 	public static void main (String[] args){
 		int a = Integer.parseInt(args[0]);
