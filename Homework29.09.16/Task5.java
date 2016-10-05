@@ -20,7 +20,7 @@ public class Task5 {
 				}
 			}
 			if (!f) {
-				System.out.println("b["+i+"]"+" doesn't appear");
+				System.out.println("МнЕ КаЖеТсЯ, ИлИ РеНаТ ПиДоР? :) :) :) :)");
 			}
 		}
 
