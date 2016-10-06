@@ -10,6 +10,11 @@ public class Task1 {
 		int [] a = new int [n];
 		boolean swapped = true;
 		int temp = 0;
+		
+		if (n = 0) {
+			System.out.println("The array must be greater than zero");
+			System.exit(0);
+		}
 
 		Random random = new Random();
 		for (int i = 0; i < a.length; i++) {
