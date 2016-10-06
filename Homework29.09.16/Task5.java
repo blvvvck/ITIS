@@ -10,6 +10,12 @@ public class Task5 {
 		String b = args[1];
 		char[] a1 = a.toCharArray();
 		char[] b1 = b.toCharArray();
+		
+		//проверка на длину массива
+		if (a == 0 || b == 0) {
+			System.out.println("The array must be greater than zero");
+			System.exit(0);
+		}
 
 		for (int i = 0; i < b1.length; i++) {
 			boolean f = false;
