@@ -12,6 +12,7 @@ public class Task3 {
 		int [] a = new int [na];
 		int [] b = new int [nb];
 		
+		//проверка на длину массива
 		if (na == 0 || nb == 0) {
 			System.out.println("The array must be greater than zero");
 			System.exit(0);
