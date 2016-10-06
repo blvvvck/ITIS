@@ -11,6 +11,11 @@ public class Task3 {
 
 		int [] a = new int [na];
 		int [] b = new int [nb];
+		
+		if (na == 0 || nb == 0) {
+			System.out.println("The array must be greater than zero");
+			System.exit(0);
+		}
 
 		Random random = new Random();
 		for (int i = 0; i < a.length; i++) {
