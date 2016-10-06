@@ -11,7 +11,7 @@ public class Task1 {
 		boolean swapped = true;
 		int temp = 0;
 		
-		if (n = 0) {
+		if (n == 0) {
 			System.out.println("The array must be greater than zero");
 			System.exit(0);
 		}
