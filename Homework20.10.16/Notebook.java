@@ -32,7 +32,7 @@ public class Notebook extends Computer implements Cloneable {
 
 
     @Override
-    public Notebook clone() {// this function clones objects and methods
+    public Notebook clone() {
 
         return new Notebook(this.GPU, this.CPU, this.RAM, this.price, this.portability, this.monitorDiagonal);
 
