@@ -24,8 +24,8 @@ public class App extends Application{
     @Override
     public void init() {
         try {
-            this.terminal = new PunchedCardUserInteractor(Paths.get(App.PUNCH_CARD));
-            this.db = new FileDb(App.DB);
+            this.terminal = new ConsoleInteractor();
+            this.db = new FileDbNew();
         } catch (UserInteractorException ex) {
             System.out.println("Couldn't start application due error:");
             System.err.println(ex.getMessage());
