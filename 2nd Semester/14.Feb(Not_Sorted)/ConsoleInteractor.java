@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class ConsoleInteractor implements UserInteractor {
+    
+    public ConsoleInteractor() throws UserInteractorException {
+    }
+    
     @Override
     public String readCommand() throws UserInteractorReadException {
         Scanner sc = new Scanner(System.in);
